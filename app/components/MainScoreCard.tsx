@@ -22,9 +22,9 @@ export default function MainScoreCard() {
     <div className="grid grid-cols-1 gap-6 rounded-3xl border border-[#d9e6f7] bg-linear-to-b from-[#f8fbff] to-[#f2f7fd] p-5 shadow-lg sm:p-6 lg:grid-cols-[1.1fr_1.4fr] lg:gap-7">
       <div className="relative">
         <div className="relative rounded-2xl bg-[#f7f1f4] px-4 pb-4 pt-5 shadow-md sm:px-5 sm:pb-5 sm:pt-6">
-          <div className="relative mx-auto mt-8 h-36 w-72 rounded-t-full border-8 border-b-0 border-[#f0f0f0] sm:h-40 sm:w-80">
+          <div className="relative mx-auto mt-8 h-36 w-72 rounded-t-full border-12 border-b-0 border-[#f0f0f0] sm:h-40 sm:w-80">
             <div
-              className="absolute -left-8 -top-8 h-36 w-72 rounded-t-full border-8 border-b-0 border-transparent sm:h-40 sm:w-80"
+              className="absolute -left-8 -top-8 h-36 w-72 rounded-t-full border-2 border-b-0 border-transparent sm:h-40 sm:w-80"
               style={{
                 borderTopColor: "#FF6969",
                 borderLeftColor: "#FF6969",
@@ -105,9 +105,9 @@ export default function MainScoreCard() {
                 <div className="text-[13px] font-semibold text-[#2e4f7a]">{item.label}</div>
                 <div className="min-w-12 text-right text-xs tabular-nums text-[#3b5e85]">{item.value}</div>
               </div>
-              <div className="h-4 rounded-full bg-[#f9f9f9]">
+              <div className="h-3.5 rounded-full bg-[#f9f9f9]">
                 <div
-                  className="h-4 rounded-full"
+                  className="h-3.5 rounded-full"
                   style={{
                     width: `${item.percent}%`,
                     background:
