@@ -1,12 +1,12 @@
 export default function Roadmap() {
   return (
-    <div className="mt-3 rounded-2xl border border-[#d9e6f7] bg-linear-to-b from-[#f9fbff] to-[#f3f7fd] p-5 shadow-lg sm:p-6">
-      <div className="mb-4 text-lg font-medium text-[#2e567f]">
+    <div className="mt-3 rounded-2xl border border-[#d9e6f7] bg-linear-to-b from-[#f9fbff] to-[#f3f7fd] p-4 shadow-lg sm:p-6">
+      <div className="mb-4 text-[17px] font-medium text-[#2e567f] sm:text-lg">
         Your personalized roadmap to <strong className="font-bold">70+ WealthUp</strong> score
       </div>
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
-        <div className="min-h-80 rounded-2xl border-2 border-[#2c5c9c] bg-white p-6 shadow-md">
+        <div className="min-h-[18rem] rounded-2xl border-2 border-[#2c5c9c] bg-white p-4 shadow-md sm:min-h-80 sm:p-6">
           <div className="text-xs font-semibold text-[#ff2d2d]">Step 1: Critical</div>
           <h3 className="mb-1 mt-2 text-lg font-semibold text-[#2a4a74]">Build your safety net (Emergency fund)</h3>
           <p className="text-sm text-[#5b708a]">
@@ -36,8 +36,8 @@ export default function Roadmap() {
             </span>
           </div>
           <div className="mt-4 text-sm font-semibold text-[#3f5e82]">Recommended Funds (Top performers)</div>
-          <div className="mt-2 flex items-center gap-2">
-            <div className="flex min-w-44 items-center gap-2 rounded-xl border border-[#e0e8f4] bg-white px-3 py-2 text-xs shadow-sm">
+          <div className="mt-2 flex flex-wrap items-center gap-2">
+            <div className="flex w-full items-center gap-2 rounded-xl border border-[#e0e8f4] bg-white px-3 py-2 text-xs shadow-sm sm:min-w-44 sm:w-auto">
               <div className="grid h-6 w-6 grid-cols-2 grid-rows-2 gap-0.5 rounded-md border border-[#e1e1e1] bg-white p-1">
                 <span className="h-2 w-2 bg-[#e11d48]" />
                 <span className="h-2 w-2 bg-[#2563eb]" />
@@ -49,7 +49,7 @@ export default function Roadmap() {
                 <div className="text-xs font-semibold text-[#1ea34a]">26.6% (3Y)</div>
               </div>
             </div>
-            <div className="flex min-w-44 items-center gap-2 rounded-xl border border-[#8bb7e8] bg-[#e8f3ff] px-3 py-2 text-xs shadow-sm">
+            <div className="flex w-full items-center gap-2 rounded-xl border border-[#8bb7e8] bg-[#e8f3ff] px-3 py-2 text-xs shadow-sm sm:min-w-44 sm:w-auto">
               <div className="h-6 w-6 rounded-md" style={{ background: "radial-gradient(circle at 60% 40%, #ffeb3b 0%, #ff9800 55%, #f44336 100%)" }} />
               <div>
                 <div className="font-medium text-[#1E3A5F]">Bandhan Small Ca..</div>
@@ -76,7 +76,7 @@ export default function Roadmap() {
           </div>
         </div>
 
-        <div className="min-h-80 rounded-2xl border border-[#e2e2e2] bg-[#fdfdfd] p-6 shadow-sm">
+        <div className="min-h-[18rem] rounded-2xl border border-[#e2e2e2] bg-[#fdfdfd] p-4 shadow-sm sm:min-h-80 sm:p-6">
           <div className="text-xs text-[#7a8ea6]">Step 2</div>
           <h3 className="mb-1 mt-2 text-lg font-semibold text-[#284b78]">Optimize investments</h3>
           <p className="text-sm text-[#617790]">
@@ -84,7 +84,7 @@ export default function Roadmap() {
             mutual funds and asset allocation strategies tailored to your risk
             profile.
           </p>
-          <button className="mt-12 flex h-12 w-full items-center justify-center gap-3 rounded-full bg-[#4a90E2] px-4 text-sm font-semibold text-white opacity-70 sm:mt-20">
+          <button className="mt-8 flex h-12 w-full items-center justify-center gap-3 rounded-full bg-[#4a90E2] px-4 text-sm font-semibold text-white opacity-70 sm:mt-20">
             Begin Investing
             <span className="rounded-full bg-[#e5f2ff] px-2 py-0.5 text-xs font-bold text-[#3c78b3]">+12 pts</span>
           </button>
@@ -96,7 +96,7 @@ export default function Roadmap() {
           </div>
         </div>
 
-        <div className="min-h-80 rounded-2xl border border-[#e2e2e2] bg-[#fdfdfd] p-6 shadow-sm">
+        <div className="min-h-[18rem] rounded-2xl border border-[#e2e2e2] bg-[#fdfdfd] p-4 shadow-sm sm:min-h-80 sm:p-6">
           <div className="text-xs text-[#7a8ea6]">Step 3</div>
           <h3 className="mb-1 mt-2 text-lg font-semibold text-[#284b78]">Maximize growth</h3>
           <p className="text-sm text-[#617790]">
@@ -104,7 +104,7 @@ export default function Roadmap() {
             options, retirement planning, and tax-efficient investment
             vehicles.
           </p>
-          <button className="mt-12 flex h-12 w-full items-center justify-center gap-3 rounded-full bg-[#4a90E2] px-4 text-sm font-semibold text-white opacity-70 sm:mt-20">
+          <button className="mt-8 flex h-12 w-full items-center justify-center gap-3 rounded-full bg-[#4a90E2] px-4 text-sm font-semibold text-white opacity-70 sm:mt-20">
             Analyse your Mutual Funds
             <span className="rounded-full bg-[#e5f2ff] px-2 py-0.5 text-xs font-bold text-[#3c78b3]">+8 pts</span>
           </button>
